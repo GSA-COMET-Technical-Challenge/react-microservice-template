@@ -9,7 +9,6 @@ const Layout = ({children}) => {
     return(
         <>
         <Navbar config={pagesConfig}/>
-        <Searchbar />
         <Router>
             {children}
         </Router>
