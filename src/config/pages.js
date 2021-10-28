@@ -1,11 +1,11 @@
 import React from "react"
-import SearchPage from "../pages/Search"
+import Search from "../pages/Search"
 
 const config = [
     {
         name: 'Search',
         path: '/search',
-        component: <SearchPage />,
+        component: Search,
         navbar: true
     }
 ]
